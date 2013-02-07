@@ -32,9 +32,15 @@
           <execution>
             <goals>
               <goal>unpack</goal>
+              <goal>compile-less</goal>
             </goals>
           </execution>
         </executions>
+        <configuration>
+          <lessIncludes>
+            <include>stylesheets/main.less</include>
+          </lessIncludes>
+        </configuration>
       </plugin>
     </plugins>
   </build>

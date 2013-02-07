@@ -9,4 +9,13 @@
   <artifactId>quickstart-client</artifactId>
   <packaging>jszip</packaging>
 
+  <dependencies>
+  	<dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>bootstrap</artifactId>
+      <version>2.2.2</version>
+      <type>jszip</type>
+  	</dependency>
+  </dependencies>
+
 </project>
